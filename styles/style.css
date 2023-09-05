@@ -14,7 +14,7 @@ div {
   display: flex;
   align-items: center;
   animation-name: java;
-  animation-duration: 6s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
@@ -32,11 +32,9 @@ h1 {
     color: indianred;
   }
   25% {
-    transform: rotate(360deg);
     color: violet;
   }
   50% {
-    transform: rotate(-360deg);
     color: peru;
   }
   75% {
