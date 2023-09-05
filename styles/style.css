@@ -4,9 +4,45 @@
   box-sizing: border-box;
 }
 
-h1{
+div {
+  border: 7px solid;
+  width: 370px;
+  margin-top: 14%;
+  margin-left: 40%;
+  height: 370px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  animation-name: java;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+h1 {
   font-size: 70px;
-  margin-top: 20%;
   text-align: center;
   font-weight: 700;
+  animation-name: java;
+  animation-iteration-count: infinite;
+  text-shadow: 1px 3px 10px;
+}
+
+@keyframes java {
+  0% {
+    color: indianred;
+  }
+  25% {
+    transform: rotate(360deg);
+    color: violet;
+  }
+  50% {
+    transform: rotate(-360deg);
+    color: peru;
+  }
+  75% {
+    color: yellowgreen;
+  }
+  100% {
+    color: steelblue;
+  }
 }
