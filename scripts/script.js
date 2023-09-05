@@ -76,3 +76,21 @@
 // }
 // console.log(verifyAge);
 
+const wifiPassword = [
+  {
+    employeeName: "Akbar",
+    password: "1234567",
+  },
+  {
+    employeeName: "Dilshod",
+    password: 1234567,
+  },
+  {
+    employeeName: "Samir",
+    password: "123456789",
+  },
+];
+const checkPassword = wifiPassword.filter(
+  (parol) => parol.password === 1234567
+);
+console.log(checkPassword);
