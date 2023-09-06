@@ -216,3 +216,8 @@
 // const result = numbers.indexOf("Shuhratullayev");
 // console.log(numbers);
 // console.log(result);
+
+// const numbers = [1, 2, 3, 4, 5, 10, "Akbar", 10 + 8, "Shuhratullayev"];
+// const result = numbers.lastIndexOf("Akbar");
+// console.log(numbers);
+// console.log(result);
