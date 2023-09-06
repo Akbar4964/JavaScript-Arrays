@@ -95,18 +95,18 @@
 // );
 // console.log(checkPassword);
 
-const peopale = [
+const people = [
   {
     name: "Akbar",
-    ticket: 7,
+    ticket: 1,
   },
   {
     name: "A1",
-    ticket: 3,
+    ticket: 2,
   },
   {
     name: "A2",
-    ticket: 1,
+    ticket: 3,
   },
   {
     name: "A3",
@@ -114,26 +114,35 @@ const peopale = [
   },
   {
     name: "A4",
-    ticket: 2,
-  },
-  {
-    name: "A5",
-    ticket: 9,
-  },
-  {
-    name: "A6",
-    ticket: 10,
-  },
-  {
-    name: "A7",
     ticket: 5,
   },
   {
-    name: "A8",
+    name: "A5",
+    ticket: 6,
+  },
+  {
+    name: "A6",
+    ticket: 7,
+  },
+  {
+    name: "A7",
     ticket: 8,
   },
   {
+    name: "A8",
+    ticket: 9,
+  },
+  {
     name: "A9",
-    ticket: 6,
+    ticket: 10,
+  },
+  {
+    name: "A10",
+    ticket: 0,
   },
 ];
+
+const tickets = people.filter(
+  (tickNum) => tickNum.ticket === Math.trunc(Math.random() * 10)
+);
+console.log(tickets);
