@@ -228,3 +228,14 @@
 //   return value > 1;
 // }
 // console.log(num);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const test = numbers.filter(result);
+// function result(value) {
+//   return value > 1;
+// }
+// console.log(test);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const test = numbers.includes(3);
+// console.log(test);
