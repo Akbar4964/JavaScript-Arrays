@@ -166,6 +166,11 @@
 // numbers.unshift(1);
 // console.log(numbers);
 
-const numbers = [1, 2, 3, 4, 5];
-numbers.shift();
-console.log(numbers);
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.shift();
+// console.log(numbers);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const strings = ["", "", "", "", ""];
+// const result = strings.concat(numbers);
+// console.log(result);
