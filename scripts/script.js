@@ -239,3 +239,7 @@
 // const numbers = [1, 2, 3, 4, 5];
 // const test = numbers.includes(3);
 // console.log(test);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const item = numbers.map((res) => res * 2);
+// console.log(item);
