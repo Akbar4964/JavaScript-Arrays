@@ -95,54 +95,54 @@
 // );
 // console.log(checkPassword);
 
-const people = [
-  {
-    name: "Akbar",
-    ticket: 1,
-  },
-  {
-    name: "A1",
-    ticket: 2,
-  },
-  {
-    name: "A2",
-    ticket: 3,
-  },
-  {
-    name: "A3",
-    ticket: 4,
-  },
-  {
-    name: "A4",
-    ticket: 5,
-  },
-  {
-    name: "A5",
-    ticket: 6,
-  },
-  {
-    name: "A6",
-    ticket: 7,
-  },
-  {
-    name: "A7",
-    ticket: 8,
-  },
-  {
-    name: "A8",
-    ticket: 9,
-  },
-  {
-    name: "A9",
-    ticket: 10,
-  },
-  {
-    name: "A10",
-    ticket: 0,
-  },
-];
+// const people = [
+//   {
+//     name: "Akbar",
+//     ticket: 1,
+//   },
+//   {
+//     name: "A1",
+//     ticket: 2,
+//   },
+//   {
+//     name: "A2",
+//     ticket: 3,
+//   },
+//   {
+//     name: "A3",
+//     ticket: 4,
+//   },
+//   {
+//     name: "A4",
+//     ticket: 5,
+//   },
+//   {
+//     name: "A5",
+//     ticket: 6,
+//   },
+//   {
+//     name: "A6",
+//     ticket: 7,
+//   },
+//   {
+//     name: "A7",
+//     ticket: 8,
+//   },
+//   {
+//     name: "A8",
+//     ticket: 9,
+//   },
+//   {
+//     name: "A9",
+//     ticket: 10,
+//   },
+//   {
+//     name: "A10",
+//     ticket: 0,
+//   },
+// ];
 
-const tickets = people.filter(
-  (tickNum) => tickNum.ticket === Math.trunc(Math.random() * 10)
-);
-console.log(tickets);
+// const tickets = people.filter(
+//   (tickNum) => tickNum.ticket === Math.trunc(Math.random() * 10)
+// );
+// console.log(tickets);
