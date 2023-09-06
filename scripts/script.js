@@ -174,3 +174,11 @@
 // const strings = ["", "", "", "", ""];
 // const result = strings.concat(numbers);
 // console.log(result);
+
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.splice(1, 4);
+// console.log(numbers);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const result = numbers.slice(0, 1);
+// console.log(result);
