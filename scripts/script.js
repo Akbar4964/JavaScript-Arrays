@@ -146,3 +146,10 @@
 //   (tickNum) => tickNum.ticket === Math.trunc(Math.random() * 10)
 // );
 // console.log(tickets);
+
+const isReduce = [1, 2, 3, 4, 5];
+const total = isReduce.reduce(result, 0);
+function result(acc, value) {
+  return acc + value;
+}
+console.log(total);
