@@ -147,13 +147,17 @@
 // );
 // console.log(tickets);
 
-const isReduce = [1, 2, 3, 4, 5];
-const total = isReduce.reduce(result, 0);
-function result(acc, value) {
-  return acc + value;
-}
-console.log(total);
+// const isReduce = [1, 2, 3, 4, 5];
+// const total = isReduce.reduce(result, 0);
+// function result(acc, value) {
+//   return acc + value;
+// }
+// console.log(total);
 
-const numbers = [1, 2, 3, 4, 5];
-numbers.pop();
-console.log(numbers);
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.pop();
+// console.log(numbers);
+
+// const numbers = [1, 2, 3, 4];
+// numbers.push(5)
+// console.log(numbers)
