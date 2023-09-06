@@ -94,3 +94,46 @@
 //   (parol) => parol.password === 1234567
 // );
 // console.log(checkPassword);
+
+const peopale = [
+  {
+    name: "Akbar",
+    ticket: 7,
+  },
+  {
+    name: "A1",
+    ticket: 3,
+  },
+  {
+    name: "A2",
+    ticket: 1,
+  },
+  {
+    name: "A3",
+    ticket: 4,
+  },
+  {
+    name: "A4",
+    ticket: 2,
+  },
+  {
+    name: "A5",
+    ticket: 9,
+  },
+  {
+    name: "A6",
+    ticket: 10,
+  },
+  {
+    name: "A7",
+    ticket: 5,
+  },
+  {
+    name: "A8",
+    ticket: 8,
+  },
+  {
+    name: "A9",
+    ticket: 6,
+  },
+];
