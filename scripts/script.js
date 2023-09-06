@@ -190,3 +190,10 @@
 // const numbers = [1, 2, 3, 4, 5];
 // numbers.reverse();
 // console.log(numbers);
+
+const numbers = [1, 2, 5, 3, 4, 7, 6];
+const name = ["Akbar", "Xislat", "To'lqin"];
+numbers.sort();
+name.sort();
+console.log(numbers);
+console.log(name);
