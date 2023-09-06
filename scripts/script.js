@@ -182,3 +182,7 @@
 // const numbers = [1, 2, 3, 4, 5];
 // const result = numbers.slice(0, 1);
 // console.log(result);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const result = numbers.toString();
+// console.log(result);
