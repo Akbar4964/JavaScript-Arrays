@@ -376,3 +376,19 @@
 // const numbers = [1, 2, 3, 4, 5];
 // numbers.unshift("Shuhratullayev ");
 // console.log(numbers);
+
+const number1 = [1, 2, 3, 4, 5];
+number1.pop();
+console.log(number1);
+
+const number2 = [1, 2, 3, 4, 5];
+number2.push(" AAA");
+console.log(number2);
+
+const number3 = [1, 2, 3, 4, 5];
+number3.shift();
+console.log(number3);
+
+const number4 = [1, 2, 3, 4, 5];
+number4.unshift("AAA ");
+console.log(number4);
