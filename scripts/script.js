@@ -321,6 +321,6 @@
 // numbers.shift();
 // console.log(numbers);
 
-const numbers = [1, 2, 3, 4, 5];
-numbers.unshift("Akbar ");
-console.log(numbers);
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.unshift("Akbar ");
+// console.log(numbers);
