@@ -290,3 +290,10 @@
 // const numbers = [1, 2, 3, 4, 5];
 // const res = numbers.splice(1, 3);
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const res = numbers.find(test);
+// function test(value) {
+//   return value > 1;
+// }
+// console.log(res);
