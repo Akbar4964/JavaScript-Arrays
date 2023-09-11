@@ -364,3 +364,7 @@
 // const numbers = [1, 2, 3, 4, 5];
 // numbers.pop();
 // console.log(numbers);
+
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.push(" Shuhratullayev");
+// console.log(numbers);
