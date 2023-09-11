@@ -243,3 +243,8 @@
 // const numbers = [1, 2, 3, 4, 5];
 // const item = numbers.map((res) => res * 2);
 // console.log(item);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const number = [6];
+// const res = numbers.concat(number);
+// console.log(res);
