@@ -261,3 +261,10 @@
 //     console.log(true);
 //   }
 // }
+
+// const numbers = [1, 2, 3, 4, 5];
+// const res = numbers.every(test);
+// function test(value) {
+//   return value > 0;
+// }
+// console.log(res);
