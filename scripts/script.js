@@ -301,3 +301,10 @@
 // const numbers = [1, 2, 3, 4, 5];
 // const res = numbers.indexOf(4);
 // console.log(res);
+
+// const numbers = [5, 3, 3, 4, 5];
+// const res = numbers.reduce(test, 0);
+// function test(acc, value) {
+//   return acc + value;
+// }
+// console.log(res);
