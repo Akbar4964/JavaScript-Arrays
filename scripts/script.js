@@ -344,3 +344,7 @@
 // ];
 // const res = items.map((elem) => elem.price * elem.count);
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.pop();
+// console.log(numbers);
