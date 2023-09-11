@@ -324,3 +324,23 @@
 // const numbers = [1, 2, 3, 4, 5];
 // numbers.unshift("Akbar ");
 // console.log(numbers);
+
+const items = [
+  {
+    name: "Iphone",
+    price: 1000,
+    count: 10,
+  },
+  {
+    name: "Samsung",
+    price: 940,
+    count: 17,
+  },
+  {
+    name: "Xioami",
+    price: 470,
+    count: 44,
+  },
+];
+const res = items.map((elem) => elem.price * elem.count);
+console.log(res);
