@@ -282,3 +282,7 @@
 //   return value > 3;
 // }
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const res = numbers.slice(1, 3);
+// console.log(res);
