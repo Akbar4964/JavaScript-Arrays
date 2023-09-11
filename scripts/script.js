@@ -385,9 +385,9 @@
 // number2.push(" AAA");
 // console.log(number2);
 
-const number3 = [1, 2, 3, 4, 5];
-number3.shift();
-console.log(number3);
+// const number3 = [1, 2, 3, 4, 5];
+// number3.shift();
+// console.log(number3);
 
 const number4 = [1, 2, 3, 4, 5];
 number4.unshift("AAA ");
