@@ -252,3 +252,12 @@
 // const numbers = [1, 2, 3, 4, 5, 6];
 // const res = numbers.copyWithin(3);
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const res = numbers.entries(test);
+// console.log(res);
+// function test(value) {
+//   if (value < 2) {
+//     console.log(true);
+//   }
+// }
