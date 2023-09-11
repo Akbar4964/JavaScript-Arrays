@@ -377,9 +377,9 @@
 // numbers.unshift("Shuhratullayev ");
 // console.log(numbers);
 
-const number1 = [1, 2, 3, 4, 5];
-number1.pop();
-console.log(number1);
+// const number1 = [1, 2, 3, 4, 5];
+// number1.pop();
+// console.log(number1);
 
 const number2 = [1, 2, 3, 4, 5];
 number2.push(" AAA");
