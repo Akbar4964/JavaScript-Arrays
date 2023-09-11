@@ -268,3 +268,10 @@
 //   return value > 0;
 // }
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const res = numbers.some(test);
+// function test(value) {
+//   return value > 2;
+// }
+// console.log(res);
