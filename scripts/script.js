@@ -275,3 +275,10 @@
 //   return value > 2;
 // }
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const res = numbers.filter(test);
+// function test(value) {
+//   return value > 3;
+// }
+// console.log(res);
