@@ -381,9 +381,9 @@
 // number1.pop();
 // console.log(number1);
 
-const number2 = [1, 2, 3, 4, 5];
-number2.push(" AAA");
-console.log(number2);
+// const number2 = [1, 2, 3, 4, 5];
+// number2.push(" AAA");
+// console.log(number2);
 
 const number3 = [1, 2, 3, 4, 5];
 number3.shift();
