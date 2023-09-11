@@ -297,3 +297,7 @@
 //   return value > 1;
 // }
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const res = numbers.indexOf(4);
+// console.log(res);
