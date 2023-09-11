@@ -312,3 +312,7 @@
 // const numbers = [1, 2, 3, 4, 5];
 // const res = numbers.pop();
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.push("Akbar");
+// console.log(numbers);
