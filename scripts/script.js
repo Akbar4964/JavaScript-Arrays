@@ -248,3 +248,7 @@
 // const number = [6];
 // const res = numbers.concat(number);
 // console.log(res);
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const res = numbers.copyWithin(3);
+// console.log(res);
