@@ -392,3 +392,30 @@
 // const number4 = [1, 2, 3, 4, 5];
 // number4.unshift("AAA ");
 // console.log(number4);
+
+// /////////////////////////////////////////////////
+let a = 5;
+let b = a;
+a = 10;
+
+//pop,push,shift,unshift,reduce,includes,
+// indexOf,lastIndexOf,map,ForEach,slice,splice,
+// every,some,filter,find,concat
+// console.log(number4);
+// const num = number4.reduce((acc, value) => {
+//   return acc + value;
+// }, 10);
+
+// const num2 = number4.reduce((acc, value) => acc + value, 0);
+
+// console.log(num2);
+// console.log(num, number4);
+
+// let s = "G'ayrat\n123";
+// console.log(d)
+
+// let r = "dunyo! ";
+// let d = `Salom 
+// ${r}`;
+// let t = r + s;
+// console.log(t);
