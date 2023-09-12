@@ -394,9 +394,6 @@
 // console.log(number4);
 
 // /////////////////////////////////////////////////
-let a = 5;
-let b = a;
-a = 10;
 
 //pop,push,shift,unshift,reduce,includes,
 // indexOf,lastIndexOf,map,ForEach,slice,splice,
