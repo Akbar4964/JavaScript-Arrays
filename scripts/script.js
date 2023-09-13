@@ -510,8 +510,8 @@
 //     };
 //   }
 
-//   return el;
-// });
+  return el;
+});
 
 // console.log(arr);
 // console.log(mapingArr);
