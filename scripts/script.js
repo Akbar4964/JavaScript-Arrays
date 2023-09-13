@@ -422,7 +422,7 @@
 //   //fnjkdsshfs
 // }
 
-// const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 // const objects = [
 //   {
 //     id: 1,
