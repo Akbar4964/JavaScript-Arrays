@@ -530,4 +530,4 @@ numbersArr.forEach((el, idx) => {
   sum = sum + el;
 });
 
-// console.log(sum);
+console.log(sum);
