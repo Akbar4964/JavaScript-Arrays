@@ -516,9 +516,9 @@
 // console.log(arr);
 // console.log(mapingArr);
 
-// const mapingArr1 = arr.map((el, idx) => {
-//   return [el.name];
-// });
+const mapingArr1 = arr.map((el, idx) => {
+  return [el.name];
+});
 
 // console.log(mapingArr1);
 
