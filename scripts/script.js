@@ -510,11 +510,11 @@
 //     };
 //   }
 
-  return el;
-});
+//   return el;
+// });
 
-console.log(arr);
-console.log(mapingArr);
+// console.log(arr);
+// console.log(mapingArr);
 
 // const mapingArr1 = arr.map((el, idx) => {
 //   return [el.name];
