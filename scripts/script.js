@@ -422,45 +422,45 @@
 //   //fnjkdsshfs
 // }
 
-const numbers = [1, 2, 3, 4, 5];
-const objects = [
-  {
-    id: 1,
-    name: "A",
-    job: "do'ktir",
-    age: 20,
-  },
-  {
-    id: 2,
-    name: "B",
-    job: "do'ktir1",
-    age: 24,
-  },
-  {
-    id: 3,
-    name: "Alisher",
-    job: "do'ktir",
-    age: 2,
-  },
-  {
-    id: 4,
-    name: "D",
-    job: "do'ktir1",
-    age: 24,
-  },
-  {
-    id: 5,
-    name: "b",
-    job: "do'ktir",
-    age: 20,
-  },
-];
+// const numbers = [1, 2, 3, 4, 5];
+// const objects = [
+//   {
+//     id: 1,
+//     name: "A",
+//     job: "do'ktir",
+//     age: 20,
+//   },
+//   {
+//     id: 2,
+//     name: "B",
+//     job: "do'ktir1",
+//     age: 24,
+//   },
+//   {
+//     id: 3,
+//     name: "Alisher",
+//     job: "do'ktir",
+//     age: 2,
+//   },
+//   {
+//     id: 4,
+//     name: "D",
+//     job: "do'ktir1",
+//     age: 24,
+//   },
+//   {
+//     id: 5,
+//     name: "b",
+//     job: "do'ktir",
+//     age: 20,
+//   },
+// ];
 
-const result = numbers.includes(3);
+// const result = numbers.includes(3);
 
-const result3 = objects.find((obj) =>
-  obj.name.toLocaleLowerCase().includes("c")
-);
+// const result3 = objects.find((obj) =>
+//   obj.name.toLocaleLowerCase().includes("c")
+// );
 
 // // const result2 = numbers.indexOf(1);
 // function test(value) {
