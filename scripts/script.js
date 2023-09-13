@@ -478,13 +478,13 @@
 //   obj.name.toLocaleLowerCase().includes(newObj.name)
 // );
 
-// if (result2 < 0) {
-//   objects.push(newObj);
-// } else {
-//   console.log("Bu malumot mavjud");
-// }
+if (result2 < 0) {
+  objects.push(newObj);
+} else {
+  console.log("Bu malumot mavjud");
+}
 
-// let id = 3;
+let id = 3;
 
 // const result4 = objects.filter((obj, idx) => obj.job === "do'ktir");
 // const result5 = objects.filter((obj, idx) => obj.age === 20);
