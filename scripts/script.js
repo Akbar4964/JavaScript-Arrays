@@ -462,17 +462,17 @@
 //   obj.name.toLocaleLowerCase().includes("c")
 // );
 
-// // const result2 = numbers.indexOf(1);
-// function test(value) {
-//   return value.id === 2;
-// }
-// //findIndex
-// console.log(result3);
-// // console.log(objects);
-// const newObj = {
-//   id: 5,
-//   name: "c",
-// };
+// const result2 = numbers.indexOf(1);
+function test(value) {
+  return value.id === 2;
+}
+//findIndex
+console.log(result3);
+// console.log(objects);
+const newObj = {
+  id: 5,
+  name: "c",
+};
 
 // const result2 = objects.findIndex((obj) =>
 //   obj.name.toLocaleLowerCase().includes(newObj.name)
