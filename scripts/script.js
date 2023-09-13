@@ -492,14 +492,14 @@
 // const result7 = objects.filter((obj, idx) => obj.id == id);
 // console.log(result7);
 
-// const arr = [
-//   { id: 1, name: "Alisher", age: 15 },
-//   { id: 2, name: "Akmal", age: 20 },
-//   { id: 3, name: "Nodir", age: 18 },
-//   { id: 4, name: "Olimjon", age: 15 },
-//   { id: 5, name: "Eshmat", age: 16 },
-//   { id: 6, name: "Toshmat", age: 15 },
-// ];
+const arr = [
+  { id: 1, name: "Alisher", age: 15 },
+  { id: 2, name: "Akmal", age: 20 },
+  { id: 3, name: "Nodir", age: 18 },
+  { id: 4, name: "Olimjon", age: 15 },
+  { id: 5, name: "Eshmat", age: 16 },
+  { id: 6, name: "Toshmat", age: 15 },
+];
 
 // const mapingArr = arr.map((el, idx) => {
 //   if (el.id === 4) {
