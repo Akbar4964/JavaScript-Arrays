@@ -474,9 +474,9 @@ const newObj = {
   name: "c",
 };
 
-// const result2 = objects.findIndex((obj) =>
-//   obj.name.toLocaleLowerCase().includes(newObj.name)
-// );
+const result2 = objects.findIndex((obj) =>
+  obj.name.toLocaleLowerCase().includes(newObj.name)
+);
 
 // if (result2 < 0) {
 //   objects.push(newObj);
