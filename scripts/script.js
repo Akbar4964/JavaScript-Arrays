@@ -520,9 +520,9 @@ const mapingArr1 = arr.map((el, idx) => {
   return [el.name];
 });
 
-// console.log(mapingArr1);
+console.log(mapingArr1);
 
-// const numbersArr = [1, 2, 3, 4, 5, 6];
+const numbersArr = [1, 2, 3, 4, 5, 6];
 
 // let sum = 0;
 // numbersArr.forEach((el, idx) => {
