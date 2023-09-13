@@ -397,7 +397,8 @@
 
 //pop,push,shift,unshift,reduce,includes,
 // indexOf,lastIndexOf,map,ForEach,slice,splice,
-// every,some,filter,find,concat
+// every,some,filter,find,findIndex,concat
+
 // console.log(number4);
 // const num = number4.reduce((acc, value) => {
 //   return acc + value;
@@ -412,7 +413,121 @@
 // console.log(d)
 
 // let r = "dunyo! ";
-// let d = `Salom 
+// let d = `Salom
 // ${r}`;
 // let t = r + s;
 // console.log(t);
+
+// function inc() {
+//   //fnjkdsshfs
+// }
+
+// const numbers = [1, 2, 3, 4, 5];
+// const objects = [
+//   {
+//     id: 1,
+//     name: "A",
+//     job: "do'ktir",
+//     age: 20,
+//   },
+//   {
+//     id: 2,
+//     name: "B",
+//     job: "do'ktir1",
+//     age: 24,
+//   },
+//   {
+//     id: 3,
+//     name: "Alisher",
+//     job: "do'ktir",
+//     age: 2,
+//   },
+//   {
+//     id: 4,
+//     name: "D",
+//     job: "do'ktir1",
+//     age: 24,
+//   },
+//   {
+//     id: 5,
+//     name: "b",
+//     job: "do'ktir",
+//     age: 20,
+//   },
+// ];
+
+// const result = numbers.includes(3);
+
+// const result3 = objects.find((obj) =>
+//   obj.name.toLocaleLowerCase().includes("c")
+// );
+
+// // const result2 = numbers.indexOf(1);
+// function test(value) {
+//   return value.id === 2;
+// }
+// //findIndex
+// console.log(result3);
+// // console.log(objects);
+// const newObj = {
+//   id: 5,
+//   name: "c",
+// };
+
+// const result2 = objects.findIndex((obj) =>
+//   obj.name.toLocaleLowerCase().includes(newObj.name)
+// );
+
+// if (result2 < 0) {
+//   objects.push(newObj);
+// } else {
+//   console.log("Bu malumot mavjud");
+// }
+
+// let id = 3;
+
+// const result4 = objects.filter((obj, idx) => obj.job === "do'ktir");
+// const result5 = objects.filter((obj, idx) => obj.age === 20);
+// const result6 = objects.filter((obj, idx) => obj.age === idx);
+// const result7 = objects.filter((obj, idx) => obj.id == id);
+// console.log(result7);
+
+// const arr = [
+//   { id: 1, name: "Alisher", age: 15 },
+//   { id: 2, name: "Akmal", age: 20 },
+//   { id: 3, name: "Nodir", age: 18 },
+//   { id: 4, name: "Olimjon", age: 15 },
+//   { id: 5, name: "Eshmat", age: 16 },
+//   { id: 6, name: "Toshmat", age: 15 },
+// ];
+
+// const mapingArr = arr.map((el, idx) => {
+//   if (el.id === 4) {
+//     return {
+//       ...el,
+//       name: "Nodir",
+//       job: "dasturchi",
+//     };
+//   }
+
+//   return el;
+// });
+
+// console.log(arr);
+// console.log(mapingArr);
+
+// const mapingArr1 = arr.map((el, idx) => {
+//   return [el.name];
+// });
+
+// console.log(mapingArr1);
+
+// const numbersArr = [1, 2, 3, 4, 5, 6];
+
+// let sum = 0;
+// numbersArr.forEach((el, idx) => {
+//   // console.log(el * 2);
+//   sum = sum + el;
+// });
+
+// console.log(sum);
