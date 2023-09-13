@@ -501,14 +501,14 @@ const arr = [
   { id: 6, name: "Toshmat", age: 15 },
 ];
 
-// const mapingArr = arr.map((el, idx) => {
-//   if (el.id === 4) {
-//     return {
-//       ...el,
-//       name: "Nodir",
-//       job: "dasturchi",
-//     };
-//   }
+const mapingArr = arr.map((el, idx) => {
+  if (el.id === 4) {
+    return {
+      ...el,
+      name: "Nodir",
+      job: "dasturchi",
+    };
+  }
 
 //   return el;
 // });
