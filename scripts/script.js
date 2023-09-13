@@ -486,11 +486,11 @@ if (result2 < 0) {
 
 let id = 3;
 
-// const result4 = objects.filter((obj, idx) => obj.job === "do'ktir");
-// const result5 = objects.filter((obj, idx) => obj.age === 20);
-// const result6 = objects.filter((obj, idx) => obj.age === idx);
-// const result7 = objects.filter((obj, idx) => obj.id == id);
-// console.log(result7);
+const result4 = objects.filter((obj, idx) => obj.job === "do'ktir");
+const result5 = objects.filter((obj, idx) => obj.age === 20);
+const result6 = objects.filter((obj, idx) => obj.age === idx);
+const result7 = objects.filter((obj, idx) => obj.id == id);
+console.log(result7);
 
 // const arr = [
 //   { id: 1, name: "Alisher", age: 15 },
