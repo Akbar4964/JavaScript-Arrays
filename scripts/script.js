@@ -524,10 +524,10 @@
 
 // const numbersArr = [1, 2, 3, 4, 5, 6];
 
-let sum = 0;
-numbersArr.forEach((el, idx) => {
-  // console.log(el * 2);
-  sum = sum + el;
-});
+// let sum = 0;
+// numbersArr.forEach((el, idx) => {
+//   // console.log(el * 2);
+//   sum = sum + el;
+// });
 
-console.log(sum);
+// console.log(sum);
