@@ -534,4 +534,8 @@
 
 // const arr = [1, 2, 3, 4, 5];
 // arr.splice(0, 3); // Bu yerda splice metodi [1, 2, 3] qiymatlarini kesib oladi
-// console.log(arr); // Natija [4, 5] chiqadi sababi biz arrayni return qilmayapmiz
+// console.log(arr); // Natija [4, 5]
+
+// const arr = [1, 2, 3, 4, 5];
+// const res = arr.splice(0, 3); // Bu yerda splice metodi [1, 2, 3] qiymatlarini kesib oladi
+// console.log(res); // Natija [1, 2, 3] chiqadi chunki biz splicedan olgan ma'lumotni return qilyapmiz
