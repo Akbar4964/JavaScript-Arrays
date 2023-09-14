@@ -555,13 +555,13 @@
 // const res = arr.slice(1); // Ko'rsatilgan index bo'yicha return qiladi
 // console.log(res); // Index bo'yicha olib natijani [{name:"B"}] qilib qaytaradi
 
-const arr = [
-  {
-    name: "A",
-  },
-  {
-    name: "B",
-  },
-];
-arr.slice(0, 1, "Akbar"); // Ko'rsatilgan index bo'yicha return qiladi va 3 parametr qabul qilmaydi
-console.log(arr); // Index bo'yicha olib natijani to'liq consolega chiqaradi
+// const arr = [
+//   {
+//     name: "A",
+//   },
+//   {
+//     name: "B",
+//   },
+// ];
+// arr.slice(0, 1, "Akbar"); // Ko'rsatilgan index bo'yicha return qiladi va 3 parametr qabul qilmaydi
+// console.log(arr); // Index bo'yicha olib natijani to'liq consolega chiqaradi
