@@ -565,3 +565,7 @@
 // ];
 // arr.slice(0, 1, "Akbar"); // Ko'rsatilgan index bo'yicha return qiladi va 3 parametr qabul qilmaydi
 // console.log(arr); // Index bo'yicha olib natijani to'liq consolega chiqaradi
+
+const arr = [1, 2, 3, 4, 5];
+arr.slice(0, 3, "Akbar");
+console.log(arr); // returnsiz qiymat ko'rsatmaydi va natija default holatda chiqadi
