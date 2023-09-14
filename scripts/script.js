@@ -539,3 +539,7 @@
 // const arr = [1, 2, 3, 4, 5];
 // const res = arr.splice(0, 3); // Bu yerda splice metodi [1, 2, 3] qiymatlarini kesib oladi
 // console.log(res); // Natija [1, 2, 3] chiqadi chunki biz splicedan olgan ma'lumotni return qilyapmiz
+
+// const arr = [1, 2, 3, 4, 5];
+// arr.splice(0, 3, "Akbar"); // Bu yerda splice metodi [1, 2, 3] qiymatlarini kesib oladi va 3 parametr natijadan oldinga massiv qo'shadi
+// console.log(arr); // Natija ["Akbar", 4, 5] chiqadi chunki biz splicedan olgan ma'lumotni return qilmayapmiz
