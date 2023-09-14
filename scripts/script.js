@@ -543,3 +543,25 @@
 // const arr = [1, 2, 3, 4, 5];
 // arr.splice(0, 3, "Akbar"); // Bu yerda splice metodi [1, 2, 3] qiymatlarini kesib oladi va 3 parametr natijadan oldinga massiv qo'shadi
 // console.log(arr); // Natija ["Akbar", 4, 5] chiqadi chunki biz splicedan olgan ma'lumotni return qilmayapmiz
+
+// const arr = [
+//   {
+//     name: "A",
+//   },
+//   {
+//     name: "B",
+//   },
+// ];
+// const res = arr.slice(1); // Ko'rsatilgan index bo'yicha return qiladi
+// console.log(res); // Index bo'yicha olib natijani [{name:"B"}] qilib qaytaradi
+
+const arr = [
+  {
+    name: "A",
+  },
+  {
+    name: "B",
+  },
+];
+arr.slice(0, 1, "Akbar"); // Ko'rsatilgan index bo'yicha return qiladi va 3 parametr qabul qilmaydi
+console.log(arr); // Index bo'yicha olib natijani to'liq consolega chiqaradi
