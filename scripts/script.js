@@ -532,6 +532,6 @@
 
 // console.log(sum);
 
-const arr = [1, 2, 3, 4, 5];
-arr.splice(0, 3);
-console.log(arr);
+// const arr = [1, 2, 3, 4, 5];
+// arr.splice(0, 3); // Bu yerda splice metodi [1, 2, 3] qiymatlarini kesib oladi
+// console.log(arr); // Natija [4, 5] chiqadi sababi biz arrayni return qilmayapmiz
