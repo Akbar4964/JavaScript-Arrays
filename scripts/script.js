@@ -569,3 +569,7 @@
 // const arr = [1, 2, 3, 4, 5];
 // arr.slice(0, 3, "Akbar");
 // console.log(arr); // returnsiz qiymat ko'rsatmaydi va natija default holatda chiqadi
+
+const numbers = [1, 2, 3, 4, 5];
+numbers.splice(0, 3, 10,"Ali");
+console.log(numbers);
