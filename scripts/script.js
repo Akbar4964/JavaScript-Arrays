@@ -573,6 +573,3 @@
 // const numbers = [1, 2, 3, 4, 5];
 // numbers.splice(0, 3, 10,"Ali");
 // console.log(numbers);
-
-
-
