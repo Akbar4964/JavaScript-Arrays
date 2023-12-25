@@ -574,4 +574,3 @@
 // numbers.splice(0, 3, 10,"Ali");
 // console.log(numbers);
 
-
